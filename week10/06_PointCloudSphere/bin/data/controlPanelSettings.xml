@@ -1,0 +1,21 @@
+<pick_color>
+    <val_0>1.000000</val_0>
+</pick_color>
+<angle>
+    <val_0>-6.222221</val_0>
+</angle>
+<point_size>
+    <val_0>4.222222</val_0>
+</point_size>
+<step>
+    <val_0>5.750000</val_0>
+</step>
+<posz>
+    <val_0>-1022.222168</val_0>
+</posz>
+<thresh>
+    <val_0>1022.222290</val_0>
+</thresh>
+<sphere_size>
+    <val_0>15.972222</val_0>
+</sphere_size>

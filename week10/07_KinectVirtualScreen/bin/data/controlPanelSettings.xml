@@ -1,0 +1,39 @@
+<angle>
+    <val_0>-7.111111</val_0>
+</angle>
+<near_thresh>
+    <val_0>255.000000</val_0>
+</near_thresh>
+<far_thresh>
+    <val_0>212.500000</val_0>
+</far_thresh>
+<min_radius>
+    <val_0>10.000000</val_0>
+</min_radius>
+<max_radius>
+    <val_0>144.444458</val_0>
+</max_radius>
+<thresh>
+    <val_0>232.333328</val_0>
+</thresh>
+<pick_color>
+    <val_0>1.000000</val_0>
+</pick_color>
+<point_size>
+    <val_0>1.944444</val_0>
+</point_size>
+<step>
+    <val_0>2.000000</val_0>
+</step>
+<posz>
+    <val_0>-777.777771</val_0>
+</posz>
+<z_thresh>
+    <val_0>1777.777832</val_0>
+</z_thresh>
+<cv_thresh>
+    <val_0>233.750000</val_0>
+</cv_thresh>
+<cv_offset>
+    <val_0>538.888855</val_0>
+</cv_offset>

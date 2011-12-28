@@ -1,0 +1,18 @@
+<angle>
+    <val_0>-7.111111</val_0>
+</angle>
+<near_thresh>
+    <val_0>255.000000</val_0>
+</near_thresh>
+<far_thresh>
+    <val_0>212.500000</val_0>
+</far_thresh>
+<min_radius>
+    <val_0>10.000000</val_0>
+</min_radius>
+<max_radius>
+    <val_0>144.444458</val_0>
+</max_radius>
+<thresh>
+    <val_0>232.333328</val_0>
+</thresh>

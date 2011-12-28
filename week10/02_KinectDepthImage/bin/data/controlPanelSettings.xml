@@ -1,0 +1,9 @@
+<angle>
+    <val_0>0.000000</val_0>
+</angle>
+<near_thresh>
+    <val_0>255.000000</val_0>
+</near_thresh>
+<far_thresh>
+    <val_0>212.500000</val_0>
+</far_thresh>
