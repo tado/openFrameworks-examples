@@ -4,10 +4,17 @@
 void testApp::setup(){
 	ofSetFrameRate(60);
 	
-	scenes[0] = new SceneA();
-	scenes[1] = new SceneB();
-	scenes[2] = new SceneC();
+	//シーンを新規の生成し、配列に追加
+	baseScene * sa = new SceneA();
+	scenes.push_back(sa);
 	
+	baseScene * sb = new SceneB();
+	scenes.push_back(sb);
+	
+	baseScene * sc = new SceneC();
+	scenes.push_back(sc);	
+	
+	//現在のシーンを0に
 	currentScene = 0;
 	scenes[currentScene]->setup();
 }
@@ -15,6 +22,7 @@ void testApp::setup(){
 //--------------------------------------------------------------
 void testApp::update(){
 	
+	//現在表示しているシーンを更新
 	scenes[currentScene]->update();
 }
 
@@ -22,6 +30,7 @@ void testApp::update(){
 //--------------------------------------------------------------
 void testApp::draw(){
 	
+	//現在表示しているシーンを描画
 	scenes[currentScene]->draw();
 	
 	//メッセージ表示
@@ -35,8 +44,10 @@ void testApp::draw(){
 void testApp::keyPressed(int key){
 	switch (key) {
 		case ' ':
+
+			//シーンの切り替え
 			currentScene++;
-			currentScene %= 3;
+			currentScene %= scenes.size();
 			scenes[currentScene]->setup();
 			break;
 			

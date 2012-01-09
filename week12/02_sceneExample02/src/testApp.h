@@ -21,6 +21,8 @@ public:
 	void mouseReleased(int x, int y, int button);
 	void windowResized(int w, int h);
 	
-	baseScene  * scenes[3];
+	//複数のシーンを格納する動的配列
+	vector <baseScene *> scenes;
+	//現在のシーン番号
 	int currentScene;
 };

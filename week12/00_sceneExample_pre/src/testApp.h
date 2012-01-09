@@ -3,8 +3,6 @@
 #include "ofMain.h"
 #include "baseScene.h"
 #include "SceneA.h"
-#include "SceneB.h"
-#include "SceneC.h"
 
 class testApp : public ofBaseApp {
 	
