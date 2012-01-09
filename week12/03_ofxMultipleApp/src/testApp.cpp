@@ -28,6 +28,7 @@ void testApp::update(){
 
 //--------------------------------------------------------------
 void testApp::draw(){
+	//ログ表示
 	ofSetHexColor(0xFFFFFF);
 	ofDrawBitmapString("Press key to change scene :\nScene A [1], Scene B [2], Scene C [3]", 20, 20);
 }
@@ -59,7 +60,11 @@ void testApp::keyPressed(int key){
 			currentApp = sceneC;
 			currentApp->show();
 			sceneC->enable = true;
-			break;			
+			break;		
+			
+		case 'f':
+			ofToggleFullscreen();
+			break;
 	}
 }
 
