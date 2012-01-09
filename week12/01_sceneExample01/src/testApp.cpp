@@ -59,30 +59,30 @@ void testApp::keyPressed(int key){
 
 //--------------------------------------------------------------
 void testApp::keyReleased(int key){
-
+	scenes[currentScene]->keyReleased(key);
 }
 
 //--------------------------------------------------------------
 void testApp::mouseMoved(int x, int y ){
-
+	scenes[currentScene]->mouseMoved(x, y);
 }
 
 //--------------------------------------------------------------
 void testApp::mouseDragged(int x, int y, int button){
-
+	scenes[currentScene]->mouseDragged(x, y, button);
 }
 
 //--------------------------------------------------------------
 void testApp::mousePressed(int x, int y, int button){
-
+	scenes[currentScene]->mousePressed(x, y, button);
 }
 
 //--------------------------------------------------------------
 void testApp::mouseReleased(int x, int y, int button){
-
+	scenes[currentScene]->mouseReleased(x, y, button);
 }
 
 //--------------------------------------------------------------
 void testApp::windowResized(int w, int h){
-
+	scenes[currentScene]->windowResized(w, h);
 }
